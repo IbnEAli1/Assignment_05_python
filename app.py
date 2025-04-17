@@ -46,7 +46,7 @@ def decrypt_data(encrypted_text):
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="🔐 Secure Data App", layout="centered")
-st.title("🛡️ Secure Data Encryption System")
+st.title("🛡️ Secure Data Encryption System by AkazBaba")
 
 if "failed_attempts" not in st.session_state:
     st.session_state.failed_attempts = 0
